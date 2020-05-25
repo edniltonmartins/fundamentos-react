@@ -1,16 +1,19 @@
-import './index.css'
+import './index.css';
 
-import ReactDOM from 'react-dom'
-import React from 'react'
+import ReactDOM from 'react-dom';
+import React from 'react';
 
-import First from './components/basics/First'
-import WithParameter from './components/basics/WithParameters'
-import Fragment from './components/basics/Fragment'
-import RandomNumber from './components/basics/RandomNumber'
+import First from './components/basics/First';
+import WithParameter from './components/basics/WithParameters';
+import Fragment from './components/basics/Fragment';
+import RandomNumber from './components/basics/RandomNumber';
+import Card from './components/layout/Card';
 
 ReactDOM.render(
     <div>
-        <RandomNumber min={10} max={100}/>
+        <Card title="Challenger Random">
+            <RandomNumber min={1} max={60}/>
+        </Card>
         <Fragment/>
         <WithParameter 
             student="Pedro"
