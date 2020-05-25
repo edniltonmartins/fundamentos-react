@@ -14,16 +14,26 @@ ReactDOM.render(
         <Card title="Challenger Random">
             <RandomNumber min={1} max={60}/>
         </Card>
-        <Fragment/>
-        <WithParameter 
-            student="Pedro"
-            grade="9.3" 
-            title="Student's Situation"/>
-        <WithParameter 
-            student="Maria"
-            grade={9.3} 
-            title="Student's Situation"/>
-        <First/>
+
+        <Card title="Fragment">
+            <Fragment/>
+        </Card>
+
+        <Card title="With Parameter">
+            <WithParameter 
+                student="Pedro"
+                grade="9.3" 
+                title="Student's Situation"/>
+            <WithParameter 
+                student="Maria"
+                grade={9.3} 
+                title="Student's Situation"/>
+        </Card>
+
+        <Card title="First Component">
+            <First/>
+        </Card>
+        
     </div>, 
     document.getElementById('root')
 )
