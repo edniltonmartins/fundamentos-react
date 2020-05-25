@@ -1,11 +1,10 @@
 import React from 'react'
+import {Fragment} from 'react'
 
-export default function Fragment(props){
-    return(
-        <>
-            <h2>Fragment</h2>
-            <p>Take care this erro</p>
-        </>
 
-    )
-}
+//Fragment me dá a possibilidade de retornar conteudo sem ter um div
+export default () => 
+    <Fragment>
+        <h2>Fragment</h2>
+        <p>Take care this erro</p>
+    </Fragment>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function WithParameter(props){
+export default props  => {
     console.log(props);
     const situation = props.grade >= 7 ? 'Okay' : 'Disapproved'
     return (
