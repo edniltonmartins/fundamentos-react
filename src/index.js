@@ -5,12 +5,20 @@ import React from 'react'
 
 import First from './components/basics/First'
 import WithParameter from './components/basics/WithParameters'
+import Fragment from './components/basics/Fragment'
 
 ReactDOM.render(
     <div>
-        <First/>
+        <Fragment/>
         <WithParameter 
-            subtitle="Its cool" 
-            title="Second Component"/>
+            student="Pedro"
+            grade="9.3" 
+            title="Student's Situation"/>
+        <WithParameter 
+            student="Maria"
+            grade={9.3} 
+            title="Student's Situation"/>
+        <First/>
     </div>, 
-    document.getElementById('root'))
+    document.getElementById('root')
+)
