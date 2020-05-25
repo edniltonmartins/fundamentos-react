@@ -6,9 +6,11 @@ import React from 'react'
 import First from './components/basics/First'
 import WithParameter from './components/basics/WithParameters'
 import Fragment from './components/basics/Fragment'
+import RandomNumber from './components/basics/RandomNumber'
 
 ReactDOM.render(
     <div>
+        <RandomNumber min={10} max={100}/>
         <Fragment/>
         <WithParameter 
             student="Pedro"
