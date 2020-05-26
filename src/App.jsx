@@ -11,7 +11,7 @@ export default _ =>
         <div className="App">
             <h1>React fundamental</h1>
             <div className="Cards">
-                <Card title="Challenger Random">
+                <Card title="Challenger Random" color="orange" borderColor="pink">
                     <RandomNumber min={1} max={60}/>
                 </Card>
                 
