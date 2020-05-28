@@ -6,12 +6,22 @@ import WithParameter from './components/basics/WithParameters';
 import Fragment from './components/basics/Fragment';
 import RandomNumber from './components/basics/RandomNumber';
 import Card from './components/layout/Card';
+import Family from "./components/basics/Family";
+import FamilyMember from "./components/basics/FamilyMember";
 
 export default _ =>
         <div className="App">
             <h1>React fundamental</h1>
             <div className="Cards">
-                <Card title="Challenger Random" color="orange" borderColor="pink">
+                <Card title="Family Component" color="silver">
+                    <Family>
+                        <FamilyMember namePerson="Ed" lastNamePerson="Martins"/>
+                        <FamilyMember namePerson="Adri" lastNamePerson="Pessanha"/>
+                        <FamilyMember namePerson="Marcia" lastNamePerson="Martins"/> 
+                    </Family>
+                </Card>
+            
+                <Card title="Challenger Random" color="orange">
                     <RandomNumber min={1} max={60}/>
                 </Card>
                 
