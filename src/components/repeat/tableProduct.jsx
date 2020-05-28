@@ -4,10 +4,10 @@ import products from "../../data/products";
 export default () => {
     const productsJSX = products.map( (product) =>{
         return(
-            <tr>
-                <td>{product.id}</td>
+            <tr key={product.id}>
                 <td>{product.name}</td>
                 <td>{product.brand}</td>
+                <td>{product.model}</td>
                 <td>{product.price}</td>
             </tr>
         )
@@ -15,7 +15,9 @@ export default () => {
 
     return(
         <table>
-            {productsJSX}
+            <tbody>
+                {productsJSX}
+            </tbody>
         </table>
     )
 }
