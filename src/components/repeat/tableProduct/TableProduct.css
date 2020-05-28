@@ -1,0 +1,17 @@
+.TableProduct{
+    width: 100%;
+}
+
+.TableProduct .Pair{
+    background-color: silver;
+
+}
+
+.TableProduct .Odd{
+    background-color: #918080;
+
+}
+
+thead {
+    background-color: rgb(175, 127, 169);
+}

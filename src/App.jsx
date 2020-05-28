@@ -9,7 +9,7 @@ import Card from './components/layout/Card';
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 import ListStudent from "./components/repeat/ListStudent";
-import TableProduct from "./components/repeat/TableProduct";
+import TableProduct from "./components/repeat/tableProduct/TableProduct";
 
 export default _ =>
         <div className="App">
