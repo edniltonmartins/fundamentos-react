@@ -1,0 +1,17 @@
+.Pair{
+    flex: 1;
+    color: chartreuse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Odd{
+    flex: 1;
+    color: brown;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.PairOdd{
+    flex: 1;
+}

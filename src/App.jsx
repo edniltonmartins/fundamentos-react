@@ -10,11 +10,18 @@ import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 import ListStudent from "./components/repeat/ListStudent";
 import TableProduct from "./components/repeat/tableProduct/TableProduct";
+import PairOdd from "./components/conditional/PairOdd";
+import UserData from "./components/conditional/UserData";
 
 export default _ =>
         <div className="App">
             <h1>React fundamental</h1>
             <div className="Cards">
+
+                <Card title="Pair OR ODD Number Component" color="#F78F">
+                    <PairOdd number="100"/>
+                    <UserData user={{}}/>
+                </Card>
 
                 <Card title="Table Component" color="#F48F">
                     <TableProduct/>
