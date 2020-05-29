@@ -18,12 +18,7 @@ export default () => {
     return(
         <div>
             <table className="TableProduct">
-                <thead>
-                    <th>Equipament</th>
-                    <th>Brand</th>
-                    <th>Model</th>
-                    <th>Price</th>
-                </thead>
+                
                 <tbody>
                     {productsJSX}
                 </tbody>
